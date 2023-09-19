@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ConferenceHall.aspx.cs" Inherits="SchoolFacilityBookingMasterPage.ConferenceHall" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="NetworkingLounge.aspx.cs" Inherits="SchoolFacilityBookingMasterPage.NetworkingLounge" %>
 
 <!DOCTYPE html>
 
@@ -30,13 +30,35 @@
             width: 763px;
             height: 110px;
         }
-        .auto-style8 {
-            font-size: 24px;
-            font-family: Arial, sans-serif;
-            color: #FFFFFF;
-            letter-spacing: normal;
+        .auto-style11 {
+            width: 404px;
+        }
+        .auto-style12 {
+            height: 28px;
+            width: 404px;
+        }
+        .auto-style13 {
+            width: 368px;
+        }
+        .auto-style14 {
+            height: 28px;
+            width: 368px;
+        }
+        .auto-style15 {
+            width: 367px;
             height: 31px;
-            background-color: #333333;
+        }
+        .auto-style16 {
+            width: 367px;
+        }
+        .auto-style17 {
+            width: 366px;
+        }
+        .auto-style18 {
+            width: 370px;
+        }
+        .auto-style19 {
+            width: 372px;
         }
     </style>
 </head>
@@ -45,21 +67,26 @@
         <div>
             <table style="width:100%;">
                 <tr>
+                    <td class="auto-style15">&nbsp;</td>
                     <td class="auto-style3"></td>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5"></td>
                 </tr>
                 <tr>
-                    <td class="auto-style3"></td>
-                    <td class="auto-style8">Conference Hall</td>
-                    <td class="auto-style5"></td>
+                    <td class="auto-style16">&nbsp;</td>
+                    <td class="auto-style1">&nbsp;</td>
+                    <td class="auto-style2"><span style="color: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 24px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(51, 51, 51); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Networking Lounge</span></td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
+                    <td class="auto-style16">&nbsp;</td>
                     <td class="auto-style1">&nbsp;</td>
                     <td class="auto-style2">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
+                    <td class="auto-style16">
+                        &nbsp;</td>
                     <td colspan="2">
                         <p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
                             You have chosen to book the Networking Lounge.</p>
@@ -71,6 +98,7 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
+                    <td class="auto-style16">&nbsp;</td>
                     <td class="auto-style1">&nbsp;</td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
@@ -79,18 +107,22 @@
         </div>
         <table style="width:100%;">
             <tr>
+                <td class="auto-style19">&nbsp;</td>
                 <td>1. Name: </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style19">
+                    &nbsp;</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server" Height="32px" OnTextChanged="TextBox1_TextChanged" Width="760px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Height="32px" OnTextChanged="TextBox1_TextChanged" Width="580px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style19">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -98,29 +130,36 @@
         </table>
     <table style="width:100%;">
         <tr>
-            <td>2. Reason for Booking: </td>
+            <td class="auto-style13">&nbsp;</td>
+            <td class="auto-style11">2. Reason for Booking: </td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>
+            <td class="auto-style13">
+                &nbsp;</td>
+            <td class="auto-style11">
                 <textarea id="TextArea1" class="auto-style7" name="S1"></textarea></td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style6"></td>
+            <td class="auto-style14">&nbsp;</td>
+            <td class="auto-style12"></td>
             <td class="auto-style6"></td>
             <td class="auto-style6"></td>
         </tr>
     </table>
     <table style="width:100%;">
         <tr>
+            <td class="auto-style13">&nbsp;</td>
             <td>3. Date</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style13">
+                &nbsp;</td>
             <td>
                 <asp:TextBox ID="TextBox2" runat="server">Set Date</asp:TextBox>
             </td>
@@ -128,6 +167,7 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
+            <td class="auto-style13">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -135,16 +175,19 @@
     </table>
         <table style="width:100%;">
             <tr>
+                <td class="auto-style17">&nbsp;</td>
                 <td>4. Time (Start &amp; End):</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style17">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style17">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -152,11 +195,14 @@
         </table>
         <table style="width:100%;">
             <tr>
+                <td class="auto-style18">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style18">
+                    &nbsp;</td>
                 <td>
                     <asp:Button ID="Button1" runat="server" Text="Button" />
                 </td>
@@ -164,8 +210,10 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style18">
+                    &nbsp;</td>
                 <td>
-                    <asp:Button ID="Button2" runat="server" Text="Button" />
+                    <asp:Button ID="Button2" runat="server" Text="Submit" PostBackUrl="ThankYou.aspx" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

@@ -16,6 +16,9 @@
             height: 26px;
             width: 324px;
         }
+        .auto-style4 {
+            margin-left: 163px;
+        }
     </style>
 </head>
 <body>
@@ -47,7 +50,7 @@
             <tr>
                 <td class="auto-style3"></td>
                 <td class="auto-style1">
-                    <asp:Button ID="Button1" runat="server" Height="58px" OnClick="Button1_Click" PostBackUrl="~/FacilityBooking.aspx" Text="Back To Booking Page" Width="531px" />
+                    <asp:Button ID="Button1" runat="server" Height="58px" OnClick="Button1_Click" PostBackUrl="~/FacilityBooking.aspx" Text="Back To Booking Page" Width="531px" CssClass="auto-style4" />
                 </td>
                 <td class="auto-style1"></td>
             </tr>

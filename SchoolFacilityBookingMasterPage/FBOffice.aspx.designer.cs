@@ -11,17 +11,8 @@ namespace SchoolFacilityBookingMasterPage
 {
 
 
-    public partial class FBOffice
+    public partial class MFBOffice
     {
-
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// Image1 control.
@@ -60,13 +51,13 @@ namespace SchoolFacilityBookingMasterPage
         protected global::System.Web.UI.WebControls.Image Image6;
 
         /// <summary>
-        /// Button3 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button3;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
         /// Image4 control.
@@ -87,12 +78,12 @@ namespace SchoolFacilityBookingMasterPage
         protected global::System.Web.UI.WebControls.Image Image5;
 
         /// <summary>
-        /// Button4 control.
+        /// CoworkingSpace control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button4;
+        protected global::System.Web.UI.WebControls.Button CoworkingSpace;
     }
 }

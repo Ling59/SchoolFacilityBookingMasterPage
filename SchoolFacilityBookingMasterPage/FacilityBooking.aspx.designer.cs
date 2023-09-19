@@ -11,17 +11,8 @@ namespace SchoolFacilityBookingMasterPage
 {
 
 
-    public partial class MyBooking
+    public partial class MFacilityBooking
     {
-
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// FBOffice control.
@@ -33,13 +24,13 @@ namespace SchoolFacilityBookingMasterPage
         protected global::System.Web.UI.WebControls.HyperLink FBOffice;
 
         /// <summary>
-        /// FBSport control.
+        /// FBSport0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink FBSport;
+        protected global::System.Web.UI.WebControls.HyperLink FBSport0;
 
         /// <summary>
         /// FBSchool control.
@@ -51,12 +42,12 @@ namespace SchoolFacilityBookingMasterPage
         protected global::System.Web.UI.WebControls.HyperLink FBSchool;
 
         /// <summary>
-        /// FBCounseling control.
+        /// FBCounseling0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink FBCounseling;
+        protected global::System.Web.UI.WebControls.HyperLink FBCounseling0;
     }
 }
