@@ -72,13 +72,23 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="easteventhall.aspx" />
     <Content Include="FacilityBooking.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Image\eventhall.jpg" />
+    <Content Include="Image\tarcevent.jpg" />
     <Content Include="Inbox.aspx" />
-    <Content Include="MyBooking.aspx" />
+    <Content Include="pending.aspx" />
     <Content Include="RyanGeorge.jpg" />
+    <Content Include="schoolHall.aspx" />
+    <Content Include="Style\Mybooking.css" />
     <Content Include="TARUMTLogo.png" />
     <Content Include="Web.config" />
+    <Content Include="bookedmessage.aspx" />
+    <Content Include="unpaid.aspx" />
+    <Content Include="MyBooking.aspx" />
+    <Content Include="paid.aspx" />
+    <Content Include="westeventhall.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.aspx.cs">
@@ -87,6 +97,13 @@
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="easteventhall.aspx.cs">
+      <DependentUpon>easteventhall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="easteventhall.aspx.designer.cs">
+      <DependentUpon>easteventhall.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacilityBooking.aspx.cs">
       <DependentUpon>FacilityBooking.aspx</DependentUpon>
@@ -116,6 +133,42 @@
     <Compile Include="Inbox.aspx.designer.cs">
       <DependentUpon>Inbox.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MyBooking.master.cs">
+      <DependentUpon>MyBooking.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyBooking.master.designer.cs">
+      <DependentUpon>MyBooking.master</DependentUpon>
+    </Compile>
+    <Compile Include="pending.aspx.cs">
+      <DependentUpon>pending.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pending.aspx.designer.cs">
+      <DependentUpon>pending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="bookedmessage.aspx.cs">
+      <DependentUpon>bookedmessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bookedmessage.aspx.designer.cs">
+      <DependentUpon>bookedmessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="schoolHall.aspx.cs">
+      <DependentUpon>schoolHall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="schoolHall.aspx.designer.cs">
+      <DependentUpon>schoolHall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="unpaid.aspx.cs">
+      <DependentUpon>unpaid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="unpaid.aspx.designer.cs">
+      <DependentUpon>unpaid.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MyBooking.aspx.cs">
       <DependentUpon>MyBooking.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -123,10 +176,24 @@
     <Compile Include="MyBooking.aspx.designer.cs">
       <DependentUpon>MyBooking.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="paid.aspx.cs">
+      <DependentUpon>paid.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paid.aspx.designer.cs">
+      <DependentUpon>paid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="westeventhall.aspx.cs">
+      <DependentUpon>westeventhall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="westeventhall.aspx.designer.cs">
+      <DependentUpon>westeventhall.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="FacilityBooking.Master" />
+    <Content Include="MyBooking.master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -135,6 +202,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

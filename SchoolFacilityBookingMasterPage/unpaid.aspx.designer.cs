@@ -11,16 +11,16 @@ namespace SchoolFacilityBookingMasterPage
 {
 
 
-    public partial class WebForm2
+    public partial class WebForm5
     {
 
         /// <summary>
-        /// mybookings2 control.
+        /// mybookings1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button mybookings2;
+        protected global::System.Web.UI.WebControls.Button mybookings1;
     }
 }
