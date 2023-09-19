@@ -10,11 +10,11 @@
             height: 26px;
         }
         .auto-style2 {
-            width: 215px;
+            width: 324px;
         }
         .auto-style3 {
             height: 26px;
-            width: 215px;
+            width: 324px;
         }
     </style>
 </head>

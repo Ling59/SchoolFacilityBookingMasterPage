@@ -74,11 +74,10 @@
     </Content>
     <Content Include="ConferenceHall.aspx" />
     <Content Include="CoworkingSpace.aspx" />
-    <Content Include="FacilityBooking.aspx" />
     <Content Include="FBOffice.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Inbox.aspx" />
-    <Content Include="MyBooking.aspx" />
+    <Content Include="FacilityBooking.aspx" />
     <Content Include="NetworkingLounge.aspx" />
     <Content Include="RyanGeorge.jpg" />
     <Content Include="TARUMTLogo.png" />
@@ -106,13 +105,6 @@
     </Compile>
     <Compile Include="CoworkingSpace.aspx.designer.cs">
       <DependentUpon>CoworkingSpace.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FacilityBooking.aspx.cs">
-      <DependentUpon>FacilityBooking.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FacilityBooking.aspx.designer.cs">
-      <DependentUpon>FacilityBooking.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacilityBooking.Master.cs">
       <DependentUpon>FacilityBooking.Master</DependentUpon>
@@ -142,12 +134,12 @@
     <Compile Include="Inbox.aspx.designer.cs">
       <DependentUpon>Inbox.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MyBooking.aspx.cs">
-      <DependentUpon>MyBooking.aspx</DependentUpon>
+    <Compile Include="FacilityBooking.aspx.cs">
+      <DependentUpon>FacilityBooking.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MyBooking.aspx.designer.cs">
-      <DependentUpon>MyBooking.aspx</DependentUpon>
+    <Compile Include="FacilityBooking.aspx.designer.cs">
+      <DependentUpon>FacilityBooking.aspx</DependentUpon>
     </Compile>
     <Compile Include="NetworkingLounge.aspx.cs">
       <DependentUpon>NetworkingLounge.aspx</DependentUpon>
