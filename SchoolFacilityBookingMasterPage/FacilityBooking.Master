@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="FacilityBooking.master.cs" Inherits="SchoolFacilityBookingMasterPage.FacilityBooking" %>
+
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 189px;
+        }
+        .auto-style3 {
+            height: 26px;
+        }
+        .auto-style4 {
+            width: 102px;
+        }
+        .auto-style5 {
+            width: 245px;
+        }
+        .auto-style6 {
+            width: 137px;
+        }
+        .auto-style7 {
+            width: 178px;
+        }
+        .auto-style8 {
+            width: 114px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <table style="width: 100%;">
+                    <tr>
+                        <td rowspan="3">&nbsp;</td>
+                        <td rowspan="3">
+                            <asp:Image ID="Logo" runat="server" Height="63px" Width="194px" ImageUrl="TARUMTLogo.png" />
+                        </td>
+                        <td class="auto-style3"></td>
+                        <td class="auto-style4" rowspan="3">
+                            <asp:Image ID="ProfilePicture" runat="server" Height="68px" ImageUrl="RyanGeorge.jpg" />
+                        </td>
+                        <td class="auto-style1" rowspan="3">
+                            Hello!</td>
+                        <td rowspan="3">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            <table style="width: 100%;">
+                <tr>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td class="auto-style6">
+                        <asp:HyperLink ID="NavBarHome" runat="server" NavigateUrl="Home.aspx">Home</asp:HyperLink>
+                    </td>
+                    <td class="auto-style7">
+                        <asp:HyperLink ID="NavBarFBooking" runat="server" NavigateUrl="FacilityBooking.aspx">Facility Booking</asp:HyperLink>
+                    </td>
+                    <td class="auto-style8">
+                        <asp:HyperLink ID="NavBarInbox" runat="server" NavigateUrl="Inbox.aspx">Inbox</asp:HyperLink>
+                    </td>
+                    <td>
+                        <asp:HyperLink ID="NavBarMBooking" runat="server" NavigateUrl="MyBooking.aspx">My Booking</asp:HyperLink>
+                    </td>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
+
