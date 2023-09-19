@@ -83,6 +83,7 @@
     <Content Include="schoolHall.aspx" />
     <Content Include="Style\Mybooking.css" />
     <Content Include="TARUMTLogo.png" />
+    <Content Include="ThankYou.aspx" />
     <Content Include="Web.config" />
     <Content Include="bookedmessage.aspx" />
     <Content Include="unpaid.aspx" />
@@ -109,8 +110,8 @@
       <DependentUpon>FacilityBooking.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FacilityBooking.aspx.designer.cs">
-      <DependentUpon>FacilityBooking.aspx</DependentUpon>
+    <Compile Include="CoworkingSpace.aspx.designer.cs">
+      <DependentUpon>CoworkingSpace.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacilityBooking.Master.cs">
       <DependentUpon>FacilityBooking.Master</DependentUpon>
@@ -173,8 +174,8 @@
       <DependentUpon>MyBooking.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="MyBooking.aspx.designer.cs">
-      <DependentUpon>MyBooking.aspx</DependentUpon>
+    <Compile Include="NetworkingLounge.aspx.designer.cs">
+      <DependentUpon>NetworkingLounge.aspx</DependentUpon>
     </Compile>
     <Compile Include="paid.aspx.cs">
       <DependentUpon>paid.aspx</DependentUpon>

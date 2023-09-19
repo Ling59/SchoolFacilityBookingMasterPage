@@ -7,9 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace SchoolFacilityBookingMasterPage
 {
-    public partial class MFacilityBooking : System.Web.UI.Page
+    public partial class NetworkingLounge : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
