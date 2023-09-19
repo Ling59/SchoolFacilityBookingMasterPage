@@ -72,13 +72,17 @@
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
+    <Content Include="ConferenceHall.aspx" />
+    <Content Include="CoworkingSpace.aspx" />
     <Content Include="FacilityBooking.aspx" />
     <Content Include="FBOffice.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Inbox.aspx" />
     <Content Include="MyBooking.aspx" />
+    <Content Include="NetworkingLounge.aspx" />
     <Content Include="RyanGeorge.jpg" />
     <Content Include="TARUMTLogo.png" />
+    <Content Include="ThankYou.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -88,6 +92,20 @@
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConferenceHall.aspx.cs">
+      <DependentUpon>ConferenceHall.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConferenceHall.aspx.designer.cs">
+      <DependentUpon>ConferenceHall.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CoworkingSpace.aspx.cs">
+      <DependentUpon>CoworkingSpace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CoworkingSpace.aspx.designer.cs">
+      <DependentUpon>CoworkingSpace.aspx</DependentUpon>
     </Compile>
     <Compile Include="FacilityBooking.aspx.cs">
       <DependentUpon>FacilityBooking.aspx</DependentUpon>
@@ -131,7 +149,21 @@
     <Compile Include="MyBooking.aspx.designer.cs">
       <DependentUpon>MyBooking.aspx</DependentUpon>
     </Compile>
+    <Compile Include="NetworkingLounge.aspx.cs">
+      <DependentUpon>NetworkingLounge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NetworkingLounge.aspx.designer.cs">
+      <DependentUpon>NetworkingLounge.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThankYou.aspx.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThankYou.aspx.designer.cs">
+      <DependentUpon>ThankYou.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="FacilityBooking.Master" />

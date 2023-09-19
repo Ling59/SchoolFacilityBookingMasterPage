@@ -44,9 +44,6 @@
         .auto-style11 {
             width: 322px;
         }
-        .auto-style12 {
-            margin-left: 143px;
-        }
         .auto-style15 {
             width: 38px;
             height: 24px;
@@ -61,8 +58,14 @@
         .auto-style18 {
             width: 336px;
         }
-        .auto-style19 {
-            width: 155px;
+        .auto-style20 {
+            width: 107px;
+        }
+        .auto-style21 {
+            margin-left: 24px;
+        }
+        .auto-style22 {
+            width: 125px;
         }
     </style>
 </head>
@@ -124,7 +127,7 @@
             <tr>
                 <td class="auto-style9">&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                    <asp:Button ID="Button1" runat="server" Text="Button" PostBackUrl="NetworkingLounge.aspx" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -149,20 +152,20 @@
         <table style="width:100%;">
             <tr>
                 <td class="auto-style11"><strong>Conference Hall</strong></td>
-                <td>&nbsp;</td>
+                <td class="auto-style20">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style11">
                     <img alt="" class="auto-style10" src="" /></td>
-                <td>&nbsp;</td>
+                <td class="auto-style20">&nbsp;</td>
                 <td>
-                    <asp:Image ID="Image3" runat="server" CssClass="auto-style12" Height="121px" Width="343px" />
+                    <asp:Image ID="Image6" runat="server" CssClass="auto-style21" Height="135px" Width="327px" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style11">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style20">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>
@@ -202,7 +205,7 @@
             <tr>
                 <td class="auto-style9">&nbsp;</td>
                 <td>Price: RM 70/hour<br />
-                    <asp:Button ID="Button3" runat="server" Text="Button" />
+                    <asp:Button ID="Button3" runat="server" Text="Button" OnClientClick="ConferenceHall.aspx" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
@@ -227,21 +230,21 @@
         <table style="width:100%;">
             <tr>
                 <td class="auto-style18"><strong>Coworking Space</strong></td>
-                <td class="auto-style19">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style18">
                     <asp:Image ID="Image4" runat="server" Height="110px" Width="329px" />
                 </td>
-                <td class="auto-style19">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
                 <td>
-                    <asp:Image ID="Image5" runat="server" Height="117px" Width="325px" />
+                    <asp:Image ID="Image5" runat="server" Height="119px" Width="340px" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style18">&nbsp;</td>
-                <td class="auto-style19">&nbsp;</td>
+                <td class="auto-style22">&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
         </table>
@@ -274,7 +277,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>Price: RM 50/hour<br />
-                    <asp:Button ID="Button4" runat="server" Text="Button" />
+                    <asp:Button ID="Button4" runat="server" Text="Button" OnClientClick="CoworkingSpace.aspx" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
